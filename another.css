@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+ }
+
+ .flexing {
+    background-color: aqua;
+    display: flex;
+    height: 20vw;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+ }
+
+ .amazing {
+    display: inline-flex;
+    background-color: black;
+    height: 200px;
+    width: 200px;
+  
+ }
+
+
+ @media screen and (max-width: 768px) {
+
+    .flexing{
+        background-color: red;
+        flex-direction: column;
+        height: 60vh;
+        gap: 40px;
+    }
+    .amazing{
+        height: 700px;
+        width: 400px;
+    }
+ }

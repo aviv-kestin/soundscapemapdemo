@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     overflow:hidden;
+     cursor: url('BOOMAsset\ 16.png'), auto;
+     background-color: black;
+   
+ }
+
+.divider {
+    width: 360vw;
+    height: auto;
+
+
+}
+
+ .map {
+    width: 360vw;
+    height: auto;
+    z-index: 1;
+
+    
+
+    
+
+ }
+
+ .compass {
+    position:fixed;
+    width: 29.5vw;
+    height: auto;
+    z-index: 3;
+    top: 49vh;
+    left: 72vw;
+ }
+
+ .rocket {
+    position: absolute;
+    z-index: 2;
+    height: 43vh;
+    width: auto;
+    left: 158vw;
+    top: 153vh;
+ }
+
+ .anchor {
+   position: absolute;
+   z-index: 2;
+   height: 43vh;
+   width: auto;
+   left: 60vw;
+   top: 263vh;
+}
+
